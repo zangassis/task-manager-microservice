@@ -1,0 +1,6 @@
+CREATE TABLE `tasks` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `Description` varchar(250) DEFAULT NULL,
+  `IsComplete` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
